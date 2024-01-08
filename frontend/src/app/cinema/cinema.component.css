@@ -1,0 +1,44 @@
+/* Custom CSS for click effect */
+.clickableVille {
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.clickableVille:hover {
+  background-color: #00AEFF; /* Change background color on hover */
+  color:#000000
+}
+
+.clickableVille.active {
+  background-color: #000000; /* Change background color for active item */
+  color: #fff; /* Change text color for active item */
+}
+.custom-pills .nav-item {
+  margin-right: 50px; /* Adjust as needed for spacing */
+
+}
+
+.cinemaList{
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.listVilles{
+  margin-bottom: 5px;
+  text-align:justify;
+}
+.imageCinema {
+  max-width: 100%; /* Adjust this value as needed */
+  height: auto;
+  /* You can also set max-height if needed */
+}
+
+
